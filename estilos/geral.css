@@ -1,0 +1,49 @@
+
+/* 
+ #F0A941
+ #F0D341
+ #EFBD40
+ #F08230
+ #F0E841
+ #F0D591
+ */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-color: orange;
+    text-align: center;
+    min-height: 150px;
+}
+header > h1 {
+    font-size: 2.2em;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+header > p {
+    font-size: 1.4em;
+    padding-bottom: 20px;
+}
+nav{
+    text-align: left;
+    background-color: brown;
+    padding-top: 17px;
+    padding-bottom: 4px;
+    padding-left: 5px;
+    min-height: 40px;
+}
+nav > a{
+
+      padding: 5px;
+      color: blanchedalmond;
+}
+section#sites{
+    background-color: rgb(9, 255, 0);
+    width: 99vw;
+}
+iframe#visor{
+    width: 99vw;
+    height: 400px;
+    border: 2px solid black;
+}
