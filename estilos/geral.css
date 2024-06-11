@@ -7,36 +7,50 @@
  #F0E841
  #F0D591
  */
+ @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 *{
     padding: 0px;
     margin: 0px;
 }
 header{
-    background-color: orange;
+    background-image: linear-gradient(to bottom, #F0A941, #F0E841);
     text-align: center;
     min-height: 150px;
 }
 header > h1 {
-    font-size: 2.2em;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3.0em;
     padding-top: 30px;
     padding-bottom: 10px;
 }
 header > p {
     font-size: 1.4em;
     padding-bottom: 20px;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 nav{
     text-align: left;
-    background-color: brown;
+    background-image: linear-gradient(to right, #F08230 , #e09860 );
     padding-top: 17px;
     padding-bottom: 4px;
     padding-left: 5px;
     min-height: 40px;
+    
+  
 }
 nav > a{
-
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
       padding: 5px;
-      color: blanchedalmond;
+      color: rgb(53, 15, 116);
+      text-decoration: none;
 }
 section#sites{
     background-color: rgb(9, 255, 0);
